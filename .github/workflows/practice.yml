@@ -1,0 +1,11 @@
+name: First Workflow
+
+on: push
+
+jobs:
+  hello-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print a message
+        run: echo "I am learning Devops step by step"
